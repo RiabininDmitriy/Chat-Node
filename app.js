@@ -4,7 +4,7 @@ const fs = require('fs')
 const cors = require('cors')
 let subdomain = 'app'
 
-let socketPath = `/home/A-level/homeworkChat/${subdomain}`
+let socketPath = `/home/kosmoaist/node_hosts/${subdomain}`
 
 var app = express()
 app.use(cors())
