@@ -11,7 +11,7 @@ window.onload = () => {
         if (method === "POST") {
             obj.body = JSON.stringify(body)
         }
-        return fetch("http://localhost:3000/message", obj
+        return fetch("https://blooming-earth-14995.herokuapp.com", obj
         )
             .then(res => res.json())
     }
