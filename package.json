@@ -5,8 +5,8 @@
   "main": "app-front.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development --content-base ./dist/ --watch-content-base --port 9999 --hot",
-    "server": "node app.js"
+    "client": "webpack-dev-server --mode development --content-base ./dist/ --watch-content-base --port 9999 --hot",
+    "start": "node app.js"
   },
   "author": "Dima",
   "license": "ISC",
